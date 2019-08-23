@@ -22,7 +22,11 @@ def get_japanese_emoticon(path, emoticons)
   if hash['get_emoticon'][emoticons]
     return hash['get_emoticon'][emoticons]
   end
+<<<<<<< HEAD
   return "Sorry, that emoticon was not found"
+=======
+  return "not found"
+>>>>>>> 163f2bf0f829fbcad7659c70dd164ee5a51fd15f
   
   
 end
@@ -33,5 +37,9 @@ def get_english_meaning(path, emoticons)
   if hash['get_meaning'][emoticons]
     return hash['get_meaning'][emoticons]
   end
+<<<<<<< HEAD
   return "Sorry, that emoticon was not found"
+=======
+  return "not found"
+>>>>>>> 163f2bf0f829fbcad7659c70dd164ee5a51fd15f
 end
